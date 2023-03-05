@@ -4,41 +4,73 @@ Input/ Output Ports
     *Input-Output ports (Giriş/Çıkış portları), bilgisayarın harici cihazlarla iletişim kurmasını sağlayan bağlantı noktalarıdır. Örneğin, fare, yazıcı, modem gibi cihazlar portlara takılır. Portlar iki türlü olabilir Seri port (bir seferde bir bit gönderir veya alır), paralel port (bir seferde 8 bit gönderir veya alır), USB portu (Evrensel Seri Veriyolu), PS-2 portu (Kişisel Sistem/2), kızılötesi port (kablosuz veri alışverişi sağlar), Bluetooth portu ve FireWire portu.
 
         1- Older Ports
-            - PS/2
 
-                *PS/2 portu, klavye ve fare gibi giriş cihazlarını bilgisayara bağlamak için kullanılan yuvarlak ve 6 pinli bir konektördür. PS/2 portu elektriksel ve mantıksal olarak IBM AT klavye portuyla aynıdır, sadece kullanılan konektör tipi farklıdır. PS/2 platformu, klavye portuyla aynı tasarıma sahip ikinci bir port daha tanıtmıştır. Bu port da fare bağlamak için kullanılır. PS/2 portları genellikle bilgisayarın arka panelinde bulunur ve klavye için mor, fare için yeşil renklidir.
-                
-            - Serial
+            *Older Ports, bilgisayarınızda açık olan TCP/IP bağlantı noktalarını kontrol etmek için de kullanılabilir. Bu bağlantı noktaları, bilgisayarınızın internete veya diğer cihazlara bağlanmasını sağlar.
 
-                *Serial port, bilgisayarın seri bir cihaza bağlanmasını sağlayan ve bir seferde bir bit veri aktaran bir arayüzdür. Bu, aynı anda paralel olarak birden fazla bit aktaran paralel portun aksinedir. Serial portlar genellikle IBM uyumlu bilgisayarlarda COM (iletişim) portları olarak tanımlanır. Örneğin, bir fare COM1’e, bir modem ise COM2’ye bağlanabilir. Serial portlar modemler, terminaller, GPS alıcıları, barkod okuyucular ve LED ekranlar gibi cihazlar için yaygın olarak kullanılır.
+                - PS/2
 
-            - Parallel
+                    *PS/2 portu, klavye ve fare gibi giriş cihazlarını bilgisayara bağlamak için kullanılan yuvarlak ve 6 pinli bir konektördür. PS/2 portu elektriksel ve mantıksal olarak IBM AT klavye portuyla aynıdır, sadece kullanılan konektör tipi farklıdır. PS/2 platformu, klavye portuyla aynı tasarıma sahip ikinci bir port daha tanıtmıştır. Bu port da fare bağlamak için kullanılır. PS/2 portları genellikle bilgisayarın arka panelinde bulunur ve klavye için mor, fare için yeşil renklidir.
+                    
+                - Serial
 
-                *Parallel port, erken bilgisayarlarda (kişisel ve diğer) çevre birimlerini bağlamak için kullanılan bir arayüz türüdür. Adı veri gönderme şekline atfen verilmiştir; parallel portlar veriyi bir seferde birden fazla bit olarak gönderir (paralel iletişim), bunun yerine bitleri tek tek gönderen seri iletişimin aksine. Bunu yapmak için parallel portlar kablolarında çoklu veri hatları gerektirir. Parallel portlar genellikle bilgisayarın arka panelinde bulunur ve anakartın bir parçasıdır. Parallel portlar genellikle yazıcı bağlamak için kullanılır. Bu bağlantı noktasına aynı zamanda LPT (LinePrinTer) de denir.
+                    *Serial port, bilgisayarın seri bir cihaza bağlanmasını sağlayan ve bir seferde bir bit veri aktaran bir arayüzdür. Bu, aynı anda paralel olarak birden fazla bit aktaran paralel portun aksinedir. Serial portlar genellikle IBM uyumlu bilgisayarlarda COM (iletişim) portları olarak tanımlanır. Örneğin, bir fare COM1’e, bir modem ise COM2’ye bağlanabilir. Serial portlar modemler, terminaller, GPS alıcıları, barkod okuyucular ve LED ekranlar gibi cihazlar için yaygın olarak kullanılır.
 
-            - Rj11
+                - Parallel
 
-                *RJ-11 portu, telefon ve modem bağlantıları için dört veya altı telli bir bağlantıdır. RJ-11 konektörü, altı kanal içeren bir sokettir. Konektörün ilgili metalik bantları soketin bantlarına dokunduğunda bir bağlantı oluşturur2. RJ-11 portu genellikle modem portu, telefon konektörü veya telefon hattı olarak da bilinir1.
+                    *Parallel port, erken bilgisayarlarda (kişisel ve diğer) çevre birimlerini bağlamak için kullanılan bir arayüz türüdür. Adı veri gönderme şekline atfen verilmiştir; parallel portlar veriyi bir seferde birden fazla bit olarak gönderir (paralel iletişim), bunun yerine bitleri tek tek gönderen seri iletişimin aksine. Bunu yapmak için parallel portlar kablolarında çoklu veri hatları gerektirir. Parallel portlar genellikle bilgisayarın arka panelinde bulunur ve anakartın bir parçasıdır. Parallel portlar genellikle yazıcı bağlamak için kullanılır. Bu bağlantı noktasına aynı zamanda LPT (LinePrinTer) de denir.
 
-            - Rj45
+                - Rj11
 
-                *RJ-45 portu, Ethernet tabanlı yerel alan ağlarına (LAN) bilgisayar bağlamak için kullanılan 8-pozisyonlu, 8-kontaklı (8P8C) bir fiş ve jakttır. RJ-45 kablo fişi port üzerinde sekiz iğneli plastik bir parçadan yapılır2. Bu iğnelerden dört tanesi veri gönderme ve alma için kullanılır. Geri kalan dört tanesi ise farklı teknolojiler ve genel ağlar için kullanılır.
+                    *RJ-11 portu, telefon ve modem bağlantıları için dört veya altı telli bir bağlantıdır. RJ-11 konektörü, altı kanal içeren bir sokettir. Konektörün ilgili metalik bantları soketin bantlarına dokunduğunda bir bağlantı oluşturur2. RJ-11 portu genellikle modem portu, telefon konektörü veya telefon hattı olarak da bilinir1.
 
-            -Audio(1/8") Cluster
+                - Rj45
 
-                *Audio cluster, ses sinyallerinin özelliklerini çıkarmak ve gruplamak için kullanılan bir makine öğrenmesi yöntemi olabilir. Audio cluster, birden fazla hoparlörü bir araya getirerek uçurmak için kullanılan bir ses sistemi bileşeni de olabilir. Audio cluster, farklı pin sayısına sahip XLR konektörleri ile bağlanabilir.
+                    *RJ-45 portu, Ethernet tabanlı yerel alan ağlarına (LAN) bilgisayar bağlamak için kullanılan 8-pozisyonlu, 8-kontaklı (8P8C) bir fiş ve jakttır. RJ-45 kablo fişi port üzerinde sekiz iğneli plastik bir parçadan yapılır2. Bu iğnelerden dört tanesi veri gönderme ve alma için kullanılır. Geri kalan dört tanesi ise farklı teknolojiler ve genel ağlar için kullanılır.
 
-            -SVGA
+                -Audio(1/8") Cluster
+
+                    *Audio cluster, ses sinyallerinin özelliklerini çıkarmak ve gruplamak için kullanılan bir makine öğrenmesi yöntemi olabilir. Audio cluster, birden fazla hoparlörü bir araya getirerek uçurmak için kullanılan bir ses sistemi bileşeni de olabilir. Audio cluster, farklı pin sayısına sahip XLR konektörleri ile bağlanabilir.
+
+                -SVGA
 
                 *SVGA portu, IBM’in VGA özelliğini genişleten bir dizi bilgisayar ekran standardını kapsayan geniş bir terimdir. SVGA portu, 15-pinli bir konektördür ve birçok PC, monitör, projektör ve yüksek çözünürlüklü televizyon setinde yaygın olarak kullanılır. SVGA portu, 14 inç monitörlerde 800 x 600 ve 20 inç monitörlerde 1200 x 1600 çözünürlüğe kadar destekler.
 
-
         2- Newer Ports
-            -USB
-            -DVI
-            -HDMI CONNECTOR
-            -IEEE I 394A(Firewire)
-            -Optical Audio
-            -eSATA
-            -DisplayPort
-            -SD/Multimedia Cards
+
+            * Ayrıca Newer Ports, bilgisayarınızda veya tabletinizde daha fazla bağlantı noktasına ihtiyacınız olduğunda kullanabileceğiniz bir terimdir. Bu bağlantı noktaları, bilgisayarınızın veya tabletinizin farklı cihazlarla veya ekranlarla bağlanmasını sağlar.
+
+                -USB
+
+                    *USB portu, bilgisayarlar ve tüketici elektronik cihazları için standart bir kablo bağlantı arayüzüdür. USB, Evrensel Seri Veri Yolu anlamına gelir ve kısa mesafeli dijital veri iletişimi için bir endüstri standardıdır. USB portları, USB cihazlarının birbirine bağlanmasını ve USB kabloları üzerinden dijital veri aktarımını sağlar. Bilgisayar klavyeleri ve fareleri, video kameraları, yazıcılar gibi birçok çevresel cihazın bilgisayara hızlı ve kolayca bağlanmasını sağlar.
+
+                -DVI
+
+                    *DVI portu, Dijital Görüntü Arayüzü anlamına gelir ve Dijital Ekran Çalışma Grubu (DDWG) tarafından geliştirilmiş bir video görüntü arayüzüdür. DVI portu, bir video kaynağını, örneğin bir video görüntü denetleyicisini, bir görüntü aygıtına, örneğin bir bilgisayar monitörüne bağlamak için kullanılan dijital bir arayüzdür. DVI portunun farklı tipleri vardır: DVI-I (entegre), DVI-D (dijital) ve DVI-A (analog).
+
+                -HDMI CONNECTOR
+
+                    *HDMI CONNECTOR portu, HDMI uyumlu bir kaynak cihazdan uyumlu bir ekran cihazına ses ve video verisi aktarmak için kullanılan bir arayüzdür. HDMI kablosu, erkek ve dişi olmak üzere iki konektör içerir. Şu anda beş standart konektör tipi mevcuttur: Tip A (standart), Tip B (çift bağlantı), Tip C (mini), Tip D (mikro) ve Tip E (Otomotiv Bağlantı Sistemi).
+
+                -IEEE I 394A(Firewire)
+
+                    *IEEE 1394A(Firewire) portu, yüksek hızlı iletişim ve izokron gerçek zamanlı veri aktarımı için bir seri veriyolu arayüz standardıdır. Apple tarafından Sony ve Panasonic gibi şirketlerle işbirliği içinde geliştirilmiştir. IEEE 1394 portu, dijital video kameralar, harici sabit diskler ve diğer cihazları bilgisayara bağlamak için kullanılabilir. 
+
+                -Optical Audio
+
+                    *Optik Ses portu, fiber optik kablolar ve lazer ışığı kullanarak cihazlar arasında dijital ses sinyalleri iletmek için bir sistemdir1. Toshiba tarafından 1983 yılında tanıtılmıştır. Optik Ses portu, CD çalarlar, DVD çalarlar, oyun konsolları ve ev sinema alıcıları gibi cihazlarda bulunabilir. 
+
+                -eSATA
+
+                    *eSATA portu, eSATA kablosu ile harici disk sürücüleri gibi cihazlara bağlanan bir arayüzdür. eSATA portu, SATA arayüzünün harici versiyonudur2. SATA arayüzü, depolama cihazlarını bağlamak için tasarlanmıştır. Bazı eSATA portları hem USB hem de eSATA cihazlarını destekleyebilir.
+
+                -DisplayPort
+
+                    *DisplayPort portu, bir video kaynağını bir görüntü cihazına bağlamak için kullanılan dijital bir arayüzdür. Ayrıca ses, USB ve diğer veri türlerini de taşıyabilir. DisplayPort portu, bilgisayarlar, monitörler ve projektörler gibi cihazlarda bulunabilir.
+
+                -SD/Multimedia Cards
+
+                *SD/Multimedia Cards portu, SD kart veya MMC kart gibi hafıza kartlarını bilgisayara bağlamak için kullanılan bir yuvadır. SD kart ve MMC kart, dijital verileri depolamak için tasarlanmış küçük ve taşınabilir kartlardır.
+
+ 
+ Front Panel Connectors
+    *Front Panel Connectors (front panel başlığı) veya FPanel, PC kasası/chassis üzerindeki fanlar, güç sıfırlama, LED’ler, güç açma, bip kodu hoparlör anahtarları ve portlar gibi cihazlar için gücü kontrol eden anakartınızdaki bir konektör bloğudur.
