@@ -1,0 +1,26 @@
+//omurilik
+1- anakart
+	a- gelen giden veriyi işler
+	b- son derece karmaşık ve hızlı
+	c- onsuz yaşıyoruz ama farkında değiliz.
+
+//beyin
+2- CPU (Central processing unit)
+
+//geçici hafızamız
+3- RAM (Random Access Memory)
+
+//uzun süreli hafızamız
+4- Storage / HardDrive / Other Storage components
+
+//mide ve sindirim sistemi
+5- Güç kaynağı
+
+//Duyular(görme, duyma,dokunma,tatma,koklama)
+6- Giriş Aletleri/ klavye mouse
+
+//konuşma ve hareket
+7- Çıktı Aletleri / Printer, Display
+
+//Doğa ve yetiştirme
+8- Yazılımlar
