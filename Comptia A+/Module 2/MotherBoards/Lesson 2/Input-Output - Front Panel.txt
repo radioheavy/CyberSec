@@ -1,0 +1,44 @@
+Input/ Output Ports and Front Panel Connectors
+
+Input/ Output Ports
+    *Input-Output ports (Giriş/Çıkış portları), bilgisayarın harici cihazlarla iletişim kurmasını sağlayan bağlantı noktalarıdır. Örneğin, fare, yazıcı, modem gibi cihazlar portlara takılır. Portlar iki türlü olabilir Seri port (bir seferde bir bit gönderir veya alır), paralel port (bir seferde 8 bit gönderir veya alır), USB portu (Evrensel Seri Veriyolu), PS-2 portu (Kişisel Sistem/2), kızılötesi port (kablosuz veri alışverişi sağlar), Bluetooth portu ve FireWire portu.
+
+        1- Older Ports
+            - PS/2
+
+                *PS/2 portu, klavye ve fare gibi giriş cihazlarını bilgisayara bağlamak için kullanılan yuvarlak ve 6 pinli bir konektördür. PS/2 portu elektriksel ve mantıksal olarak IBM AT klavye portuyla aynıdır, sadece kullanılan konektör tipi farklıdır. PS/2 platformu, klavye portuyla aynı tasarıma sahip ikinci bir port daha tanıtmıştır. Bu port da fare bağlamak için kullanılır. PS/2 portları genellikle bilgisayarın arka panelinde bulunur ve klavye için mor, fare için yeşil renklidir.
+                
+            - Serial
+
+                *Serial port, bilgisayarın seri bir cihaza bağlanmasını sağlayan ve bir seferde bir bit veri aktaran bir arayüzdür. Bu, aynı anda paralel olarak birden fazla bit aktaran paralel portun aksinedir. Serial portlar genellikle IBM uyumlu bilgisayarlarda COM (iletişim) portları olarak tanımlanır. Örneğin, bir fare COM1’e, bir modem ise COM2’ye bağlanabilir. Serial portlar modemler, terminaller, GPS alıcıları, barkod okuyucular ve LED ekranlar gibi cihazlar için yaygın olarak kullanılır.
+
+            - Parallel
+
+                *Parallel port, erken bilgisayarlarda (kişisel ve diğer) çevre birimlerini bağlamak için kullanılan bir arayüz türüdür. Adı veri gönderme şekline atfen verilmiştir; parallel portlar veriyi bir seferde birden fazla bit olarak gönderir (paralel iletişim), bunun yerine bitleri tek tek gönderen seri iletişimin aksine. Bunu yapmak için parallel portlar kablolarında çoklu veri hatları gerektirir. Parallel portlar genellikle bilgisayarın arka panelinde bulunur ve anakartın bir parçasıdır. Parallel portlar genellikle yazıcı bağlamak için kullanılır. Bu bağlantı noktasına aynı zamanda LPT (LinePrinTer) de denir.
+
+            - Rj11
+
+                *RJ-11 portu, telefon ve modem bağlantıları için dört veya altı telli bir bağlantıdır. RJ-11 konektörü, altı kanal içeren bir sokettir. Konektörün ilgili metalik bantları soketin bantlarına dokunduğunda bir bağlantı oluşturur2. RJ-11 portu genellikle modem portu, telefon konektörü veya telefon hattı olarak da bilinir1.
+
+            - Rj45
+
+                *RJ-45 portu, Ethernet tabanlı yerel alan ağlarına (LAN) bilgisayar bağlamak için kullanılan 8-pozisyonlu, 8-kontaklı (8P8C) bir fiş ve jakttır. RJ-45 kablo fişi port üzerinde sekiz iğneli plastik bir parçadan yapılır2. Bu iğnelerden dört tanesi veri gönderme ve alma için kullanılır. Geri kalan dört tanesi ise farklı teknolojiler ve genel ağlar için kullanılır.
+
+            -Audio(1/8") Cluster
+
+                *Audio cluster, ses sinyallerinin özelliklerini çıkarmak ve gruplamak için kullanılan bir makine öğrenmesi yöntemi olabilir. Audio cluster, birden fazla hoparlörü bir araya getirerek uçurmak için kullanılan bir ses sistemi bileşeni de olabilir. Audio cluster, farklı pin sayısına sahip XLR konektörleri ile bağlanabilir.
+
+            -SVGA
+
+                *SVGA portu, IBM’in VGA özelliğini genişleten bir dizi bilgisayar ekran standardını kapsayan geniş bir terimdir. SVGA portu, 15-pinli bir konektördür ve birçok PC, monitör, projektör ve yüksek çözünürlüklü televizyon setinde yaygın olarak kullanılır. SVGA portu, 14 inç monitörlerde 800 x 600 ve 20 inç monitörlerde 1200 x 1600 çözünürlüğe kadar destekler.
+
+
+        2- Newer Ports
+            -USB
+            -DVI
+            -HDMI CONNECTOR
+            -IEEE I 394A(Firewire)
+            -Optical Audio
+            -eSATA
+            -DisplayPort
+            -SD/Multimedia Cards

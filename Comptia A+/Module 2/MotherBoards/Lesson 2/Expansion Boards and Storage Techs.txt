@@ -1,0 +1,52 @@
+1- Expansion Buses
+    *Expansion Buses, bilgisayarların genişlemesine izin veren bir kablo ve protokol kümesine verilen addır. Genellikle harici otobüs olarak da adlandırılır. Bu araç, CPU ile diğer aygıtlar arasında iletişim kurmak için bir genişletme kartı kullanır. Basitçe söylemek gerekirse, veri ve bilgi aktarmak için giriş/çıkış kanalıdır.
+
+        -Bilgisayarlarda kullanılan yaygın genişletme otobüsü türleri şunlardır:
+
+            - ISA - Endüstri Standart Mimarisi
+
+                *Bilgisayar veri yolu standardı, bilgisayarın içindeki parçalar arasında ya da bilgisayarlar arasında verileri ya da gücü transfer eden bir alt sistemdir. ISA ise IBM uyumlu bilgisayarların ilk veri yolu standardıdır. 8-bit’lik bir sistem olarak başlamış ve daha sonra 16-bit’lik bir sisteme dönüşmüştür. ISA’nın yerini daha sonra PCI, AGP ve PCIe gibi daha hızlı ve gelişmiş veri yolu standartları almıştır.
+
+            - PCI - Çevre Birimi Bağlantısı
+
+                *PCI, bir masaüstü bilgisayara dahili bileşenler eklemek için kullanılan bir donanım veri yoludur. PCI kartları, ses kartları, ekran kartları ve ağ kartları gibi çevre birimlerini anakarta bağlamak için kullanılır. PCI yuvaları, beyaz renkte ve ISA yuvalarından biraz daha kısadır. PCI veriyolu tak-çalıştır desteklidir.
+
+            - PCI Express (PCIe)
+
+                *PCI Express (PCIe), PCI ve PCI-X veri yolu standartlarının yerini alacak şekilde tasarlanmış yüksek hızlı bir seri bilgisayar genişletme veri yoludur. PCI Express, ekran kartı gibi çevresel bileşenlerin anakarta bağlanmasını sağlar. PCI Express yuvaları, x1, x4, x8 ve x16 gibi farklı boyutlarda olabilir. PCI Express’in avantajları arasında daha yüksek bant genişliği, daha az gecikme süresi ve daha fazla güç verimi sayılabilir.
+
+            - PCIe
+
+                *PCI-X, IBM, HP ve Compaq tarafından geliştirilen bir bilgisayar veriyolu ve genişletme kartı standardıdır. PCI yerel veriyolunu daha yüksek bant genişliği için geliştirir.
+
+            - mini-PCI
+
+                *Mini PCI, kart form faktörü çok daha küçük olan PCI arayüzünün bir alt kümesidir. Sadece 3.3 volt ve PCI özelliğinin 32 bitini destekler. Mini PCI, endüstriyel otomasyon ve araçlarda test gibi uygulamalar için tasarlanmıştır. Mini PCIe ise hem standart PCI Express hem de USB 2.0 sinyalleri sağlayan bir geliştirmedir.
+
+            - AGP - Hızlandırılmış Grafik Portu
+
+                *AGP, grafik kartlarını veya 3D hızlandırıcıları ana karta bağlamak için kullanılan bir veri yolu sistemidir12. AGP, üç boyutlu bilgisayar grafiklerini daha hızlı yönlendirmeyi sağlar23. AGP 32-bit’lik bir kanal olup 66 Mhz hızına ve 266 MBps bant genişliğine sahiptir1.
+
+            - AMR & CNR
+
+                *AMR ve CNR, anakartlarda iletişim ve ağ cihazlarını bağlamak için kullanılan yuvalardır. AMR (Ses Modem Yuvası), sadece ses ve modem kartları için tasarlanmıştır. CNR (İletişim ve Ağ Yuvası), AMR’yi geliştirmek için Intel tarafından oluşturulmuştur ve hem yazılım tabanlı hem de donanım hızlandırmalı cihazları destekler. ACR (Gelişmiş İletişim Yuvası) ise CNR ile uyumlu bir başka yuvadır.
+
+            - PCMCIA - Kişisel Bilgisayar Bellek Kartı Endüstri Birliği (PC otobüsü olarak da adlandırılır)
+
+                *PCMCIA, dizüstü bilgisayarlar için çevre birimleri tasarlayan bir grup bilgisayar donanımı üreticisinin adıdır. PCMCIA aynı zamanda bu üreticilerin oluşturduğu standartlara da verilen bir isimdir. PCMCIA kartlar, bilgisayara bellek, modem, ağ veya ses kartı gibi ek özellikler sağlayan küçük kartlardır. PCMCIA kartlar yazılım geliştirmeye uygun bir tasarıma sahiptir ve farklı tipleri vardır.
+
+2- Storage Technology
+    *Storage Technology, bilgisayar teknolojisi aracılığıyla dijital verilerin bir veri depolama aygıtında kaydedilmesi sürecidir. Storage Technology, bir bilgisayarın verileri geçici veya kalıcı olarak saklamasını sağlayan bir mekanizmadır. Storage Technology’nin iki ana kategorisi vardır: doğrudan alan depolama ve ağ tabanlı depolama. Doğrudan alan depolama (DAS), adından da anlaşılacağı gibi doğrudan bağlı depolamadır. Bu depolama genellikle yakın alanda ve erişen bilgisayara doğrudan bağlıdır. Ağ tabanlı depolama ise verileri ayrı bir sunucuda veya cihazda tutar ve erişim için ağ protokolleri kullanır. Örnekler arasında JBOD, network-attached storage (NAS), storage area network (SAN), SCSI, iSCSI ve Fibre Channel sayılabilir.
+
+        -PATA / IDE
+            *PATA / IDE, IBM PC uyumlu bilgisayarlar için tasarlanmış bir standart arayüzdür. PATA / IDE, uyumlu sabit diskler ve CD veya DVD sürücüleri için 1986 yılında Western Digital ve Compaq tarafından geliştirilmiştir. PATA / IDE, her seferinde 16 bit veri transfer etme yeteneğine sahip 40-pin’lik bir bağlantı kablosu kullanır2. İlk nesil sürücüler PATA / IDE arayüzünü kullanıyordu.
+
+            *PATA / IDE’nin avantajlarından biri, PATA kablolarının aynı anda iki cihaza bağlanabilmesidir. Birisi cihaz 0 (ana) olarak adlandırılırken, diğeri cihaz 1 (ikincil) olarak adlandırılır. Bir kablo üzerinde iki cihaz kullanmanın yaygın bir yanlış anlaşılması, sadece en yavaş cihaz kadar hızlı çalışabilecekleri yönündedir.
+
+            *PATA / IDE’nin dezavantajlarından biri ise veri aktarım hızının SATA’ya göre daha düşük olmasıdır. SATA kabloları saniyede 6 Gbit’e kadar veri aktarabilirken, PATA kabloları saniyede en fazla 133 Mbit veri aktarabilir. Ayrıca PATA kabloları SATA kablolarından daha kalın ve daha uzundur, bu da bilgisayar kasasında daha fazla yer kaplaması ve hava akışını engellemesi anlamına gelir.
+        -SATA
+            *SATA, toplu depolama aygıtları için bir bilgisayar veriyolu arayüzüdür. SATA, sabit disk sürücüleri, SSD’ler ve optik sürücüler gibi cihazların anakart ile veri aktarımını sağlar. SATA’nın farklı versiyonları vardır ve her versiyon daha yüksek bir veri aktarım hızı sunar. Örneğin SATA II saniyede 3 Gbit, SATA III ise saniyede 6 Gbit veri aktarabilir. SATA kabloları genellikle ince ve kısadır, bu da bilgisayar kasasında daha az yer kaplaması ve hava akışını iyileştirmesi anlamına gelir.
+
+            *SATA’nın avantajları arasında daha hızlı veri aktarımı, daha yüksek bant genişliği, daha fazla esneklik, daha az karmaşık ve kolay yönetilebilir bağlantı, daha sorunsuz işleyiş, daha az güç tüketimi ve birden fazla sürücüyü destekleme ile güvenilirlik sayılabilir. SATA arayüzü ayrıca PATA’ya göre bağımsız bir veriyolu sistemine sahiptir. SATA kabloları PATA kablolarından daha ince ve uzundur, bu da bilgisayar kasasında daha az yer kaplaması ve hava akışını iyileştirmesi anlamına gelir.
+
+            *SATA’nın dezavantajları arasında ise NVM Express SSD kadar hızlı olmaması ve eski cihazlara bağlanamaması sayılabilir. Ayrıca SATA kablolarının eğilmesi veya hasar görmesi durumunda veri kaybına neden olabileceği de belirtilmektedir.
