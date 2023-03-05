@@ -1,0 +1,55 @@
+ Kelime Bilgisi;
+    -Chipset, Bus, Lane // Yonga seti, veri yolu
+    -Parallel vs. Serial // paralel ve seri
+    1- Chipset
+        *birlikte çalışmak üzere tasarlanmış ve genellikle tek bir ürün olarak pazarlanan bir grup entegre devre veya çip.
+
+    2- Bus
+        *bir tel veya bir yerden diğerine veri taşıyan bir tel grubu
+
+    3- Serial vs Parallel iletim
+        *Seri ve paralel iletim arasındaki temel farklılık, verilerin iletildiği şekildedir. Seri iletimde, veriler birer bitten sonra tek bir telle gönderilir12. Paralel iletimde ise veriler çoklu bitler halinde aynı anda çoklu tellerle gönderilir. Seri iletim uzun mesafeli iletişim için kullanılırken, paralel iletim kısa mesafeli iletişim için kullanılır23. Seri iletimin hızı ve hatası paralel iletimden daha düşüktür.
+            -Serial
+                *Bir segerde bir veri gönderme
+            -Parallel
+                *aynı anda birden fazla veri biti gönderme
+            
+        3-A- Bits vs. Bytes
+
+            * 8 btis = 1 Byte
+            *Bit üçük b ile byte büyük b ile temsil edilir.
+            * 1 Mbps = 125 KBps
+
+    4- Lane // Yol
+    *verilerin eş zamanlı olarak gönderilmesini ve alınmasını sağlayan iki seri tel
+
+Chipset /Yonga Seti
+            *Chipset, yonga seti olarak da bilinir. Anakart üzerindeki temel ve bütünleşik arabirimleri yöneten ve bunlar arasındaki veri akışını sağlayan bir çeşit işlemcidir. İşlemci ve bellek türünü belirler.
+
+                -Intel vs AMD
+                    *Intel ve AMD, bilgisayar işlemcileri üreten iki rakip şirkettir. AMD işlemcileri genellikle daha ucuz ve daha çok çekirdeğe sahiptir. Intel işlemcileri ise tek çekirdekli performansta daha iyidir. Hangisinin daha iyi olduğu kullanım amacına ve bütçeye bağlıdır.
+
+                -Norhbridge
+                    *Northbridge, yongasetinin bir parçası olan bir çiptir. İşlemci, bellek ve AGP veriyolunu kontrol eder ve bunlar arasındaki veri aktarımını sağlar. Anakart üzerinde işlemciye yakın konumda bulunur.
+
+                -Southbridge
+                    *Southbridge, bir kişisel bilgisayarın (PC) anakartındaki çekirdek mantık yonga setinin iki yongasından biridir. Diğeri northbridge’dir. Southbridge tipik olarak anakartın daha yavaş yeteneklerini uygular. Hard disk denetleyicisi, I/O denetleyicisi ve entegre donanım gibi bileşenler southbridge tarafından yönetilir. Northbridge ile arasındaki arayüz genellikle PCI veriyoludur.
+
+                -DMI(Direct Media Interface)
+                    *DMI (Direct Media Interface), bilgisayar anakartındaki northbridge ve southbridge arasındaki Intel’in özel bağlantısıdır. İlk olarak 2004 yılında çıkan 9xx yonga setleri ve ICH6 arasında kullanılmıştır. DMI, artan bant genişliği ihtiyaçlarına ve kullanım modellerine cevap vermek için tasarlanmıştır. DMI, iki yönlü şeritler aracılığıyla saniyede 2 GB eşzamanlı aktarım hızlarını destekler.
+
+Buses // Veri yolu
+            *Bilgisayarlarla ilgili olarak, buses, bilgisayarın farklı bileşenleri arasında veri aktaran paralel hatlar anlamına gelebilir. Örneğin, adres busu, işlemci ve bellek arasında adres bilgisi taşır. 
+
+                -Frontside Bus(Intel) // Ön Veri Yolu
+                    *Frontside bus (FSB), 1990’lı ve 2000’li yıllarda Intel tabanlı bilgisayarlarda sıkça kullanılan bir bilgisayar iletişim arayüzüdür. FSB, merkezi işlem birimi (CPU) ile bellek denetleyici hub’ı (northbridge) arasında veri taşır. FSB hızı, anakart veya CPU alırken dikkate alınması gereken önemli bir faktördür. FSB hızı arttıkça, CPU’nun bellekle daha hızlı iletişim kurması sağlanır.
+
+                -HyperTransport Bus(AMD)
+                    *HyperTransport bus (HT), AMD tarafından geliştirilen ve mikroişlemcilerde düşük gecikmeli, yüksek hızlı, noktadan noktaya bir bağlantı olarak kullanılan bir veriyolu teknolojisidir. HT, bilgisayar sistemi, sunucu, gömülü sistem ve ağ ve telekomünikasyon ekipmanları arasındaki iletişim hızını eski veya mevcut taşıma teknolojisine göre 48 kata kadar artırmak için özel olarak tasarlanmıştır. HT, Athlon 64’ten AMD FX’e kadar olan AMD merkezi işlem birimlerinin (CPU) sistem veriyolu mimarisinde en çok bilinir. Ayrıca IBM ve Apple tarafından Power Mac G5 makineleri için de kullanılmıştır.
+
+                -Memory Bus // Hafıza kabloları
+                    *Memory Bus, bir bilgisayar veri yolu türüdür ve ana bellekten işlemciye veya bellek denetleyicisine veri ve adres aktarımına izin verir123. Memory Bus hızı, RAM hızını etkiler.
+
+                -Expansion Buses // Genişletme kabloları
+                    *Expansion Buses, bilgisayarın genişlemesine izin veren bir dizi kablodur. Genişleme kartları, Expansion Buses üzerinden bilgisayara bağlanır ve ek özellikler sağlar. PCI Bus, en yaygın Expansion Bus türüdür.
+
